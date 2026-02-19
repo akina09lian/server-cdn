@@ -7,6 +7,6 @@ RUN groupadd -g 10014 choreo && \
 USER 10014
 
 WORKDIR /opt/node
-
+RUN cat /opt/node/startde.sh
 
 
