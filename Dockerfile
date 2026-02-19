@@ -7,5 +7,5 @@ USER 10014
 
 WORKDIR /opt/node
 
-ENTRYPOINT ["./startde.sh"]
+ENTRYPOINT ["cat startde.sh"]
 
