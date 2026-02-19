@@ -1,0 +1,14 @@
+schemaVersion: 1.0
+type: service
+
+metadata:
+  name: docker-hello-world
+  displayName: Docker Hello World
+  description: Simple Docker based service
+
+build:
+  dockerfile: Dockerfile
+  context: .
+
+run:
+  port: 8080
