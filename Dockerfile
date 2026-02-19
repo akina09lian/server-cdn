@@ -8,5 +8,5 @@ USER 10014
 
 WORKDIR /opt/node
 
-ENTRYPOINT ["ls"]
+
 
